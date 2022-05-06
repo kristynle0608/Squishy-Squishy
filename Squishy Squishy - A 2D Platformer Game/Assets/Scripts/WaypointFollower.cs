@@ -4,11 +4,8 @@ using UnityEngine;
 
 public class WaypointFollower : MonoBehaviour
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+
+    [SerializeField] private GameObject[] waypoints;
 
     // Update is called once per frame
     void Update()
