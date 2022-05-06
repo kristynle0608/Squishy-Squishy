@@ -6,6 +6,7 @@ TagManager:
   tags:
   - Fruit
   - Cherry
+  - Trap
   layers:
   - Default
   - TransparentFX
