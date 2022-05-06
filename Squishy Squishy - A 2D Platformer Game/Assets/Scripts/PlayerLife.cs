@@ -4,11 +4,15 @@ using UnityEngine;
 
 public class PlayerLife : MonoBehaviour
 {
+
+    private Rigidbody2D rb;
     private Animator anim;  
+
     // Start is called before the first frame update
     void Start()
     {
         anim = GetComponent<Animator>();
+        rb = GetComponent<Rigidbody2D>();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)
@@ -21,6 +25,7 @@ public class PlayerLife : MonoBehaviour
 
     private void Die()
     {
+        rb.bodyType = RigidbodyType2D.Static;
         anim.SetTrigger("death");
     }
 }
