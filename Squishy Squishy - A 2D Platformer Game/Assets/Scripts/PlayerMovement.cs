@@ -1,6 +1,7 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 
 public class PlayerMovement : MonoBehaviour
 {
@@ -43,8 +44,18 @@ public class PlayerMovement : MonoBehaviour
             rb.velocity = new Vector2(0, jumpForce);
         }
 
+        if (Input.GetKeyDown("escape"))
+        {
+            BackToMainMenu();
+        }
+
         AnimTransition();
 
+    }
+
+    private void BackToMainMenu()
+    {
+        SceneManager.LoadScene("Start Screen");
     }
 
     private void AnimTransition()
