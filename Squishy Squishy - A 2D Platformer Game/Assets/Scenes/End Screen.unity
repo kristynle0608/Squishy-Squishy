@@ -215,6 +215,7 @@ GameObject:
   - component: {fileID: 257523227}
   - component: {fileID: 257523226}
   - component: {fileID: 257523225}
+  - component: {fileID: 257523228}
   m_Layer: 5
   m_Name: 'Back To Main Menu Button '
   m_TagString: Untagged
@@ -286,7 +287,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 257523226}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 257523228}
+        m_TargetAssemblyTypeName: EndScreen, Assembly-CSharp
+        m_MethodName: BackToMainMenu
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &257523226
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -325,6 +338,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 257523223}
   m_CullTransparentMesh: 1
+--- !u!114 &257523228
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 257523223}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d80e73ab5936ed94789bdca5b6da0322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &555348446
 GameObject:
   m_ObjectHideFlags: 0
@@ -605,7 +630,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 6, y: 146}
+  m_AnchoredPosition: {x: 6, y: 135}
   m_SizeDelta: {x: 80.6015, y: 80.6015}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1106432857
@@ -628,7 +653,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_Sprite: {fileID: 21300000, guid: 320f4eb52e227b446830a1f6fd691fca, type: 3}
+  m_Sprite: {fileID: 7040038629683462113, guid: 62a315a8619ac644f899c29e008115c0, type: 3}
   m_Type: 0
   m_PreserveAspect: 0
   m_FillCenter: 1
@@ -658,6 +683,7 @@ GameObject:
   - component: {fileID: 1136771917}
   - component: {fileID: 1136771916}
   - component: {fileID: 1136771915}
+  - component: {fileID: 1136771918}
   m_Layer: 5
   m_Name: Quit Button
   m_TagString: Untagged
@@ -729,7 +755,19 @@ MonoBehaviour:
   m_TargetGraphic: {fileID: 1136771916}
   m_OnClick:
     m_PersistentCalls:
-      m_Calls: []
+      m_Calls:
+      - m_Target: {fileID: 1136771918}
+        m_TargetAssemblyTypeName: EndScreen, Assembly-CSharp
+        m_MethodName: EndGame
+        m_Mode: 1
+        m_Arguments:
+          m_ObjectArgument: {fileID: 0}
+          m_ObjectArgumentAssemblyTypeName: UnityEngine.Object, UnityEngine
+          m_IntArgument: 0
+          m_FloatArgument: 0
+          m_StringArgument: 
+          m_BoolArgument: 0
+        m_CallState: 2
 --- !u!114 &1136771916
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -768,6 +806,18 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1136771912}
   m_CullTransparentMesh: 1
+--- !u!114 &1136771918
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1136771912}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d80e73ab5936ed94789bdca5b6da0322, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1246404329
 GameObject:
   m_ObjectHideFlags: 0
