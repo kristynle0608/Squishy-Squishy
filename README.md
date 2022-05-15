@@ -47,6 +47,8 @@ Squishy Squishy: A 2D - Platformer Game
 - After successfully downloading, access the .exe file to play **Squishy Squishy**
 - **Caution:** Do not delete any folders/files within that .zip file since they are needed to run the game
 
+You can also download the executables [here](https://kristynle.itch.io/squishy-squishy "Squishy Squishy - A 2D Platform Game on itch.io")
+
 ## Credits
 [Coding in Flow - Build a 2D Platformer Game in Unity | Unity Beginner Tutorial](https://youtube.com/playlist?list=PLrnPJCHvNZuCVTz6lvhR81nnaf1a-b67U "Build a 2D Platformer Game in Unity | Unity Beginner Tutorial")
 
