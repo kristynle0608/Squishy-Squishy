@@ -3,7 +3,7 @@
 Squishy Squishy: A 2D - Platformer Game
 
 ## Description
-**Squishy Squishy: A 2D - Platformer Game** follows the tutorial of 'Coding with Flow' on YouTube.
+**Squishy Squishy: A 2D - Platformer Game** follows the tutorial of 'Coding in Flow' on YouTube.
 
 ### The game itself contains:
 - A main character that the player can play with
@@ -33,6 +33,13 @@ Squishy Squishy: A 2D - Platformer Game
 - Download the .zip file
 - After successfully downloading, access the .exe file to play **Squishy Squishy**
 - **Caution:** Do not delete any folders/files within that .zip file since they are needed to run the game
+
+## Credits
+[Coding in Flow - Build a 2D Platformer Game in Unity | Unity Beginner Tutorial](https://youtube.com/playlist?list=PLrnPJCHvNZuCVTz6lvhR81nnaf1a-b67U "Build a 2D Platformer Game in Unity | Unity Beginner Tutorial")
+
+[Brackeys - 2D Lights in Unity!](https://youtu.be/nkgGyO9VG54 "2D Lights in Unity!")
+
+[Bobbville's Unity Tutorials - New Unity 2D Light System || Version 2021.2.7 ||](https://youtu.be/tFidUlfEdWs "New Unity 2D Light System || Version 2021.2.7 ||")
 
 
 
