@@ -11,6 +11,11 @@ public class StartMenu : MonoBehaviour
         SceneManager.LoadScene("Level 1");
     }
 
+    public void LevelsScreen()
+    {
+        SceneManager.LoadScene("Levels Screen");
+    }
+
     public void EndGame()
     {
         Application.Quit();

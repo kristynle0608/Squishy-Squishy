@@ -25,4 +25,9 @@ public class LevelsScreen : MonoBehaviour
     {
         SceneManager.LoadScene("Level 4");
     }
+
+    public void BackToMainMenu()
+    {
+        SceneManager.LoadScene("Start Screen");
+    }
 }
