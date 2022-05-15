@@ -24,6 +24,17 @@ Squishy Squishy: A 2D - Platformer Game
 - Wall Jumping -> Tried but it didn't work. Hopefully will add wall jumping in future projects
 - Pause Menu -> Was unable to figure out how to jump from the pause menu scene back to the previous scene that the player was playing. Need to find more tutorials on how to do this
 
+## How to Download and Play the Game
+**Warning:** Linux and macOS executables are not tested, therefore might result in bugs and errors.
+
+- Go into folder **Exe Files to Play Squishy Squishy**
+- Then, go into folder that has the name of the operating system that your device is using
+    - For example, access the 'Windows' folder if your device is using Windows
+- Download the .zip file
+- After successfully downloading, access the .exe file to play **Squishy Squishy**
+- **Caution:** Do not delete any folders/files within that .zip file since they are needed to run the game
+
+
 
 
 
