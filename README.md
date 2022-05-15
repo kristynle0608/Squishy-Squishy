@@ -3,13 +3,21 @@
 Squishy Squishy: A 2D - Platformer Game
 
 ## Description
-**Squishy Squishy: A 2D - Platformer Game** follows the tutorial of 'Coding in Flow' on YouTube.
+**Squishy Squishy: A 2D - Platformer Game** follows the tutorial of 'Coding in Flow' on YouTube. Player has to make it to the finish line while also try to avoid traps that are set along the way. 
+- Levels 1 and 2 follow the design of the tutorial 
+- Levels 3 and 4 are designed by me
 
-### The game itself contains:
+### The game contains:
 - A main character that the player can play with
 - 4 levels (ranging from easy to difficult)
 - Cherries so that the player can collect them throughout the game
 - Traps to make the game more interesting
+
+### Controls in Game
+- Press `A` or `left-arrow key` to move left
+- Press `D` or `right-arrow key` to move right
+- Press `spacebar` to jump
+- Press `escape` to return back to main menu
 
 ### Game engine that is used:
 - Unity (Learned in course CS2053: Intro to Game Development)
@@ -18,6 +26,11 @@ Squishy Squishy: A 2D - Platformer Game
 ### Goals:
 - Review concepts that were taught during CS2053
 - Improve game development skills by learning how to make game features that are not taught in the course
+    - Making animations look smoother
+    - Using the animator
+    - Coding player's death
+    - Using tools in the Tile Palette to draw tiles more efficiently
+    - Make Start and End screens
 - Learn how to make a game that I would actually want to play
 
 ### Features that I wanted to add but didn't:
@@ -40,6 +53,12 @@ Squishy Squishy: A 2D - Platformer Game
 [Brackeys - 2D Lights in Unity!](https://youtu.be/nkgGyO9VG54 "2D Lights in Unity!")
 
 [Bobbville's Unity Tutorials - New Unity 2D Light System || Version 2021.2.7 ||](https://youtu.be/tFidUlfEdWs "New Unity 2D Light System || Version 2021.2.7 ||")
+
+[Pixel Frog - Pixel Adventure 1](https://assetstore.unity.com/packages/2d/characters/pixel-adventure-1-155360 "Pixel Adventure 1")
+
+[Dusty Room - FREE Casual Game SFX Pack](https://assetstore.unity.com/packages/audio/sound-fx/free-casual-game-sfx-pack-54116 "FREE Casual Game SFX Pack")
+
+[B.G.M - Casual Game BGM #5](https://assetstore.unity.com/packages/audio/music/casual-game-bgm-5-135943 "Casual Game BGM #5")
 
 
 
